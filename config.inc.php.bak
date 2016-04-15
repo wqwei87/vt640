@@ -183,7 +183,7 @@ $display_empty_home_blocks = false;
 
 //Disable Stat Tracking of vtiger CRM instance
 $disable_stats_tracking = false;
-
+ 
 // Generating Unique Application Key
 $application_unique_key = '469b3497317d5db864610d8ad5a82a8d';
 
