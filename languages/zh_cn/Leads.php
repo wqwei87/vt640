@@ -5,7 +5,7 @@
  * The Original Code is:  vtiger CRM Open Source
  * The Initial Developer of the Original Code is vtiger.
  * Portions created by vtiger are Copyright (C) vtiger.
- * 简体中文语言包 - 潜在客户线索
+ * 简体中文语言包 - 潜在客户
  * 版本: 6.2.0 
  * 作者: Maie | www.maie.name
  * 更新日期: 2015-02-02
@@ -26,7 +26,7 @@ $languageStrings = array(
 	'Industry' => '行业',	
 	'Junk Lead'=>'无用的线索',
 	'LBL_ADD_RECORD' => '添加潜在客户',	
-	'LBL_CONVERT_LEAD' => '转换潜在客户线索',
+	'LBL_CONVERT_LEAD' => '转换潜在客户',
 	'LBL_CONVERT_LEAD_ERROR_TITLE' => '模块禁用',							
 	'LBL_CONVERT_LEAD_ERROR' => '必须勾选组织或联系人才能转换',
 	'LBL_CUSTOM_FIELD_MAPPING'=> '编辑字段映射',
@@ -52,7 +52,7 @@ $languageStrings = array(
 	'Prof.'=>'教授',	
 	'Qualified'=>'合格',
 	'Secondary Email' => '备用 Email',
-	'SINGLE_Leads' => '潜在客户线索',
+	'SINGLE_Leads' => '潜在客户',
 	'This Month Leads' => '本月线索',
 	'Warm'=>'关系友好',
 	'Website' => '网站',

@@ -49,7 +49,7 @@ $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
 $dbconfig['db_server'] = 'localhost';
 $dbconfig['db_port'] = ':3306';
 $dbconfig['db_username'] = 'root';
-$dbconfig['db_password'] = '';
+$dbconfig['db_password'] = '123456';
 $dbconfig['db_name'] = 'vtiger640';
 $dbconfig['db_type'] = 'mysqli';
 $dbconfig['db_status'] = 'true';
@@ -81,12 +81,12 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://localhost/vtiger640/';
+$site_URL = 'http://localhost:81/crm/vtiger640/';
 
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';
 // root directory path
-$root_directory = 'E:\xampp1.8.1\htdocs\vtiger640/';
+$root_directory = 'E:\xampp\htdocs\crm\vtiger640/';
 
 // cache direcory path
 $cache_dir = 'cache/';
@@ -169,7 +169,7 @@ $default_charset = 'UTF-8';
 
 // default language
 // default_language default value = en_us
-$default_language = 'en_us';
+$default_language = 'zh_cn';
 
 // add the language pack name to every translation string in the display.
 // translation_string_prefix default value = false
