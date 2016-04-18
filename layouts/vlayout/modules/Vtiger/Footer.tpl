@@ -18,7 +18,7 @@
 		{assign var="FIRSTHEADERLINKCHILDRENS" value=$FIRSTHEADERLINK->get('childlinks')}
 		{assign var="FEEDBACKLINKMODEL" value=$FIRSTHEADERLINKCHILDRENS.2}
 		<div id="userfeedback" class="feedback noprint">
-			<a href="https://discussions.vtiger.com" target="_blank" xonclick="{$FEEDBACKLINKMODEL->get('linkurl')}" class="handle">{vtranslate("LBL_FEEDBACK", "Vtiger")}</a>
+			<a href="http://www.vtcrm.cn" target="_blank" xonclick="{$FEEDBACKLINKMODEL->get('linkurl')}" class="handle">{vtranslate("LBL_FEEDBACK", "Vtiger")}</a>
 		</div>
 		{/if}
 
@@ -28,11 +28,11 @@
 			<p>
 				{vtranslate('POWEREDBY')} {$VTIGER_VERSION} &nbsp;
 				&copy; 2004 - {date('Y')}&nbsp&nbsp;
-				<a href="//www.vtiger.com" target="_blank">vtiger.com</a>
+				<a href="http://www.vtcrm.cn" target="_blank">vtcrm.cn</a>
 				&nbsp;|&nbsp;
 				<a href="#" onclick="window.open('copyright.html','copyright', 'height=115,width=575').moveTo(210,620)">{vtranslate('LBL_READ_LICENSE')}</a>
 				&nbsp;|&nbsp;
-				<a href="https://www.vtiger.com/crm/privacy-policy" target="_blank">{vtranslate('LBL_PRIVACY_POLICY')}</a>
+				<a href="http://www.vtcrm.cn" target="_blank">{vtranslate('LBL_PRIVACY_POLICY')}</a>
 			</p>
                      </div>
 		</footer>
